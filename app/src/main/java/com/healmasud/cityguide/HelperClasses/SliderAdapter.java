@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,29 +22,15 @@ public class SliderAdapter extends PagerAdapter {
     }
 
     int[] images = {
-            R.drawable.make_a_call,
+            R.drawable.search_new_location,
             R.drawable.search_place,
             R.drawable.add_missing_place,
             R.drawable.sit_back_and_relax
     };
 
-    int[] headings = {
-        R.string.first_slide_title,
-        R.string.second_slide_title,
-        R.string.third_slide_title,
-        R.string.fourth_slide_title
-    };
-
-    int[] descriptions = {
-            R.string.first_slide_desc,
-            R.string.second_slide_desc,
-            R.string.third_slide_desc,
-            R.string.fourth_slide_desc
-    };
-
     @Override
     public int getCount() {
-        return headings.length;
+        return images.length;
     }
 
     @Override
@@ -61,12 +46,7 @@ public class SliderAdapter extends PagerAdapter {
 
         //hooks from design
         ImageView imageView = view.findViewById(R.id.slider_image);
-        TextView heading = view.findViewById(R.id.slider_heading);
-        TextView desc = view.findViewById(R.id.slider_desc);
-
         imageView.setImageResource(images[position]);
-        heading.setText(headings[position]);
-        desc.setText(descriptions[position]);
 
         container.addView(view);
 
