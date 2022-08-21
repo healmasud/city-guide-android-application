@@ -1,6 +1,7 @@
 package com.healmasud.cityguide.Common;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
@@ -22,8 +23,9 @@ public class OnBoarding extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+    //        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+    //        setTheme(R.style.Theme_CityGuide);
         setContentView(R.layout.activity_on_boarding);
-
         // hooks
         viewPager = findViewById(R.id.slider);
         dotsLayout = findViewById(R.id.dots);
