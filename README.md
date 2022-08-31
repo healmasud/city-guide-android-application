@@ -1,3 +1,3 @@
-# City View android application with (Java and android studio)
+# City View android application (Java and android studio)
 
-# (work in progress)
+## (work in progress)
