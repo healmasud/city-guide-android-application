@@ -11,8 +11,10 @@
         <entry key="app/src/main/res/drawable/splash_image.xml" value="0.1765" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2824074074074074" />
         <entry key="app/src/main/res/layout/activity_on_boarding.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/featured_card_design.xml" value="0.2824074074074074" />
+        <entry key="app/src/main/res/layout/most_viewed_card_design.xml" value="0.2824074074074074" />
         <entry key="app/src/main/res/layout/slides_layout.xml" value="0.5" />
-        <entry key="app/src/main/res/layout/user_dashboard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/user_dashboard.xml" value="0.25" />
       </map>
     </option>
   </component>
