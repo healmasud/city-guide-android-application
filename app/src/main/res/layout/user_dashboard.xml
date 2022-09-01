@@ -269,8 +269,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="40dp"
+                android:orientation="vertical"
                 android:padding="20dp">
 
                 <RelativeLayout
@@ -281,35 +281,35 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/most_viewed_locations"
-                        android:textSize="20sp"
-                        android:textColor="@color/colorAccent"
                         android:fontFamily="@font/brandon_grotesque_black"
-                        android:textAllCaps="true"/>
+                        android:text="@string/most_viewed_locations"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/view_all"
                         android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"/>
-
+                        android:layout_centerVertical="true"
+                        android:text="@string/view_all" />
 
 
                 </RelativeLayout>
 
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/mv_recycler"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"/>
+                    android:layout_height="wrap_content" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="40dp"
+                android:orientation="vertical"
                 android:padding="20dp">
 
                 <RelativeLayout
@@ -329,18 +329,18 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/view_all"
                         android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"/>
-
+                        android:layout_centerVertical="true"
+                        android:text="@string/view_all" />
 
 
                 </RelativeLayout>
 
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/categories_recycler"
                     android:layout_width="match_parent"
-                    android:layout_height="100dp"/>
+                    android:layout_height="wrap_content" />
 
             </LinearLayout>
 
